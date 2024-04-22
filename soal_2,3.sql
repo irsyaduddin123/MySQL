@@ -30,7 +30,7 @@ Hasil :
 | L112   | Kopi              |
 | L113   | Teh Sosro 2       |
 | L0015  | Laptop Asus       |
-| TV0115 | Televisi 22 inc`  |
+| TV0115 | Televisi 22 inc  |
 | TV0116 | Televisi 23 inc   |
 | TV0117 | Televisi 24 inc   |
 | TV0118 | Televisi 25 inc   |
@@ -50,7 +50,7 @@ Hasil:
 +--------+-------------------+
 | TV01   | Televisi 21 inchs |
 | TV02   | Televisi 40 inch  |
-| TV0115 | Televisi 22 inc`  |
+| TV0115 | Televisi 22 inc  |
 | TV0116 | Televisi 23 inc   |
 | TV0117 | Televisi 24 inc   |
 | TV0118 | Televisi 25 inc   |
