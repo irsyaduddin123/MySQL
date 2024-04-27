@@ -1,0 +1,5 @@
+2.	Berikan penjelasan kapan saat yang tepat menggunakan LOCK TABLES READ
+--> LOCK TABLES READ digunakan untuk mengunci tabel atau beberapa tabel supaya cuman bisa dibaca saja untuk mencegah dari query lain yang memodifikasi tabel tersebut sampai kita melepaskan LOCK TABLES READ tersebut dimana hanya bisa melihat saja tanpa bisa merubah tabel yang dikunci itu.
+
+3.	Berikan penjelasan kapan saat yang tepat menggunakan LOCK TABLES WRITE
+--> LOCK TABLES WRITE digunakan untuk mengunci satua atau beberapa tabel hanya untuk bisa diubah, ditambah, atau dihapus sehingga ketika kita melakukan sesi lain tabel tersebut dapat dengan bebas dirubah tanpa takut akan terjadinya konflik atau tabrakan dengan query dari sesi lainnya.
