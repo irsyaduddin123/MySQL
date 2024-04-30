@@ -1,3 +1,4 @@
+
 DELIMITER $$
 
 CREATE PROCEDURE pro_naikan_harga(
@@ -18,12 +19,12 @@ CALL pro_naik(1,4);
 -- No 2 --
 
 CREATE FUNCTION umur(tgl_lahir DATE)
-    -> RETURNS INT
-    -> BEGIN
-    -> DECLARE umur INT;
-    -> SET umur = YEAR(CURDATE()) - YEAR(tgl_lahir);
-    -> RETURN umur;
-    -> END $$
+RETURNS INT
+BEGIN
+DECLARE umur INT;
+SET umur = YEAR(CURDATE()) - YEAR(tgl_lahir);
+RETURN umur;
+END $$
 
 SELECT nama, umur(tgl_lahir) AS umur FROM pelanggan;
 
